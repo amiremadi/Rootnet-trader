@@ -1,7 +1,6 @@
-// Rootnet.ir
-// AmirEmadi
-
-indicator("[RootNet.ir - Trader]", overlay=true, max_lines_count=500, max_labels_count=500, max_boxes_count=350)
+//   
+//@version=5
+indicator("[RootNet Trader]", overlay=true, max_lines_count=500, max_labels_count=500, max_boxes_count=350)
 
 // FUNCTIONS
 
@@ -288,7 +287,7 @@ else if  Hv < mae // volatilite butun bandlarin anltinda
 
 
 
-//-------------- https://rootnet.ir -----------------//
+//--------------Rootnet.ir----------------//
 // Get user input
 enableDashboard   = input(true, "Enable Dashboard", group="DASHBOARD SETTINGS")
 locationDashboard = input.string("Middle right", "Location", ["Top right", "Top left", "Middle right", "Middle left", "Bottom right", "Bottom left"], group="DASHBOARD SETTINGS")
